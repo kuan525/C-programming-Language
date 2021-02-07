@@ -1,0 +1,2 @@
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\桶排序\五个小孩排序分数\Debug\五个小孩排序分数.exe
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\桶排序\五个小孩排序分数\Debug\五个小孩排序分数.pdb

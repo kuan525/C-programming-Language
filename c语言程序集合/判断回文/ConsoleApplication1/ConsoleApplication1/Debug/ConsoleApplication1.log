@@ -1,0 +1,4 @@
+﻿  1.c
+c:\users\宽\desktop\c语言程序集合\12.16\判断回文\consoleapplication1\consoleapplication1\1.c(6): warning C4101: “n”: 未引用的局部变量
+  ConsoleApplication1.vcxproj -> C:\Users\宽\Desktop\C语言程序集合\12.16\判断回文\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\宽\Desktop\C语言程序集合\12.16\判断回文\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

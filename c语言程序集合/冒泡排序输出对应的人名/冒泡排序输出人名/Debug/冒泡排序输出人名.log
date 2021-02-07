@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\冒泡排序输出对应的人名\冒泡排序输出人名\main.c(37,8): warning C4013: “system”未定义；假设外部返回 int
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\冒泡排序输出对应的人名\冒泡排序输出人名\main.c(12,6): warning C4101: “temp”: 未引用的局部变量
+  冒泡排序输出人名.vcxproj -> C:\Users\宽\Desktop\vs实例程序\c语言程序集合\冒泡排序输出对应的人名\冒泡排序输出人名\Debug\冒泡排序输出人名.exe

@@ -1,0 +1,6 @@
+﻿  fun2.c
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\字符串去空格\字符串去空格\fun2.c(4,10): warning C4013: “printf_s”未定义；假设外部返回 int
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\字符串去空格\字符串去空格\fun2.c(10,12): warning C4098: “fun2”:“void”函数返回值
+  main.c
+  正在生成代码...
+  字符串去空格.vcxproj -> C:\Users\宽\Desktop\vs实例程序\c语言程序集合\字符串去空格\字符串去空格\Debug\字符串去空格.exe

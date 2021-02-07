@@ -1,0 +1,2 @@
+C:\Users\宽\Desktop\vs实例程序\排序集合大法\快速排序法\快速排序法\Debug\快速排序法.exe
+C:\Users\宽\Desktop\vs实例程序\排序集合大法\快速排序法\快速排序法\Debug\快速排序法.pdb

@@ -1,0 +1,47 @@
+//DFS(Depth First Search,DFS)
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+int a[10], book[10], n;//在此特别说明一下，c语言的全局变量在没有赋值之前默认为0，因此这里的book数组无需全部再次赋值为0
+
+void DFS(int step)//step表示当前站在第几个盒子面前
+{
+	int i;
+	if (step==n+1)//如果站在第n+1个盒子面前，则表示前n个盒子已经放好扑克牌
+	{
+		//输出一种排列(1-n号盒子中的扑克号编号)
+		for (i = 1; i <= n; i++)
+			printf_s("%d",a[i]);
+		printf_s("\n");
+
+		return;//返回前一步(最近一次调用DFS的地方)
+	}
+
+	//此时站在第step个盒子面前，应该放那张牌呢
+	//按照1-n的数字依次尝试
+
+	for ( i = 1; i <= n; i++)
+	{
+		//判断扑克牌i是否还在手上
+		if (book[i] == 0)
+		{
+			//开始尝试使用扑克牌i
+			a[step] = i;//将i号扑克牌放入第step号盒子中
+			book[i] = 1;//将book[i]设置为1，表示i号扑克牌已经不在手上
+
+			//第step个盒子已经放好扑克牌，接下来需要走到下一个盒子面前
+			DFS(step + 1);//这里通过递归调用来实现
+			book[i] = 0;//这里是非常重要的一步，一定要将刚才尝试的扑克牌收回，才能进行下一次尝试
+		}
+	}
+	return;
+}
+
+int main(void)
+{
+	scanf_s("%d",&n);//输入时要注意n为1-9之间的整数
+	DFS(1);//首先站在1号盒子前面
+	system("pause");
+	return 0;
+}

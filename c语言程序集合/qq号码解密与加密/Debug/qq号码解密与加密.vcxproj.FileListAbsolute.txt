@@ -1,0 +1,2 @@
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\qq号码解密与加密\Debug\qq号码解密与加密.exe
+C:\Users\宽\Desktop\vs实例程序\c语言程序集合\qq号码解密与加密\Debug\qq号码解密与加密.pdb
